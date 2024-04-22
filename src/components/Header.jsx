@@ -8,13 +8,12 @@ export const Header = () => {
         <div className="pl-10"> 
         <img className="w-24 " src= {logo} alt="Logo" />
         </div>
-        <div className="pt-5"> <input className="input "type="text" placeholder="Search what you want" /> <button type="submit" >Submit </button></div>
-       
+        
        <div >
-        <ul className="flex">
+        <ul className="flex space-x-10 pt-5">
             <li className="">Home</li>
             <li>About Us</li>
-            <li>ABout</li>
+            <li>About</li>
             <li>Cart</li>
         </ul>
        </div>

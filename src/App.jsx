@@ -1,14 +1,14 @@
 
 import { Header } from './components/Header'
+import Body  from './components/Body'
 
 function App() {
   
 
   return (
      <>
-     <div className='bg-grey-100'>
-       <Header></Header>
-      </div>
+     <Header/>
+     <Body/>
      </>
   )
 }
